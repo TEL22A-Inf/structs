@@ -3,8 +3,8 @@ package game
 import (
 	"fmt"
 
-	"github.com/rhcourses/go.structs/examples/cardgames/cards"
-	"github.com/rhcourses/go.structs/examples/cardgames/players"
+	"github.com/tel22a-inf/go.structs/examples/cardgames/cards"
+	"github.com/tel22a-inf/go.structs/examples/cardgames/players"
 )
 
 func ExampleDeal() {

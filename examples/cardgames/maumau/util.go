@@ -3,7 +3,7 @@ package maumau
 import (
 	"fmt"
 
-	"github.com/rhcourses/go.structs/examples/cardgames/players"
+	"github.com/tel22a-inf/go.structs/examples/cardgames/players"
 )
 
 // askMove fragt einen Spieler nach seinem gewünschten Zug und liefert die
