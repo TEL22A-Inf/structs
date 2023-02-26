@@ -8,7 +8,7 @@ import "fmt"
 func ExampleDuration_constructors() {
 	// Erzeuge jeweils ein Duration-Objekt mit einem der Konstruktoren und gebe es aus:
 
-	d1 := Milliseconds(1)
+	d1 := FromMS(1)
 	fmt.Println(d1)
 
 	d2 := FromS(1)

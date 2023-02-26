@@ -4,14 +4,14 @@ package duration
 // Als Basis-Einheit wird eine Zeitdauer in Millisekunden gespeichert.
 type Duration int
 
-// Milliseconds konstruiert eine Duration aus einer Millisekunden-Angabe.
-func Milliseconds(ms int) Duration {
+// FromMS konstruiert eine Duration aus einer Millisekunden-Angabe.
+func FromMS(ms int) Duration {
 	return Duration(ms)
 }
 
 // FromS konstruiert eine Duration aus einer Sekunden-Angabe.
 func FromS(s int) Duration {
-	return Milliseconds(s * 1000)
+	return FromMS(s * 1000)
 }
 
 // FromM konstruiert eine Duration aus einer Minuten-Angabe.
