@@ -2,25 +2,30 @@ package duration
 
 // ToMS liefert die Millisekunden dieser Duration als int.
 func (d Duration) ToMS() int {
-	return int(d)
+	// TODO
+	return 0
 }
 
 // ToS liefert die Sekunden dieser Duration als int.
 func (d Duration) ToS() int {
-	return d.ToMS() / 1000
+	// TODO
+	return 0
 }
 
 // ToM liefert die Minuten dieser Duration als int.
 func (d Duration) ToM() int {
-	return d.ToS() / 60
+	// TODO
+	return 0
 }
 
 // ToH liefert die Stunden dieser Duration als int.
 func (d Duration) ToH() int {
-	return d.ToM() / 60
+	// TODO
+	return 0
 }
 
 // ToD liefert die Stunden dieser Duration als int.
 func (d Duration) ToD() int {
-	return d.ToH() / 24
+	// TODO
+	return 0
 }
