@@ -10,6 +10,9 @@ func (v Velocity) ToMPS() int {
 	return v.ToMMpMSS()
 }
 
+// Hinweis: Es ist u.U. übersichtlicher, wenn Sie sich eine Funktion definieren,
+// die die Geschwindigkeit als Millimeter pro Millisekunde liefert.
+
 // ToMMpMSS liefert die Millimeter pro Millisekunde als int.
 func (v Velocity) ToMMpMSS() int {
 	return v.dist.ToMM() / v.dur.ToMS()
