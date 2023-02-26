@@ -1,4 +1,4 @@
-package measures
+package distance
 
 import "fmt"
 
@@ -8,28 +8,28 @@ import "fmt"
 func ExampleDistance_constructors() {
 	// Erzeuge jeweils ein Distance-Objekt mit einem der Konstruktoren und gebe es aus:
 
-	d1 := Millimeters(1)
+	d1 := FromMM(1)
 	fmt.Println(d1)
 
-	d2 := Centimeters(1)
+	d2 := FromCM(1)
 	fmt.Println(d2)
 
-	d3 := Meters(1)
+	d3 := FromM(1)
 	fmt.Println(d3)
 
-	d4 := Kilometers(1)
+	d4 := FromKM(1)
 	fmt.Println(d4)
 
-	d5 := Miles(1)
+	d5 := FromMI(1)
 	fmt.Println(d5)
 
 	// In den Ausgaben unten sehen wir, dass das Struct
 	// immer eine Millimeter-Anzahl enthält.
 
 	// Output:
-	// {1}
-	// {10}
-	// {1000}
-	// {1000000}
-	// {1609340}
+	// 1
+	// 10
+	// 1000
+	// 1000000
+	// 1609340
 }
