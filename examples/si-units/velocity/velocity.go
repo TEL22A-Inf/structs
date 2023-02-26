@@ -1,8 +1,8 @@
 package velocity
 
 import (
-	"github.com/rhcourses/go.structs/examples/si-units/distance"
-	"github.com/rhcourses/go.structs/examples/si-units/duration"
+	"github.com/tel22a-inf/structs/examples/si-units/distance"
+	"github.com/tel22a-inf/structs/examples/si-units/duration"
 )
 
 // Velocity ist ein Typ, der Geschwindigkeiten speichert.

@@ -3,8 +3,8 @@ package velocity
 import (
 	"fmt"
 
-	"github.com/rhcourses/go.structs/examples/si-units/distance"
-	"github.com/rhcourses/go.structs/examples/si-units/duration"
+	"github.com/tel22a-inf/structs/examples/si-units/distance"
+	"github.com/tel22a-inf/structs/examples/si-units/duration"
 )
 
 // ExampleVelocity_constructors konstruiert verschiedene Velocity-Objekte und gibt sie aus.

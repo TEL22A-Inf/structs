@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/rhcourses/go.structs/examples/cardgames/maumau"
+	"github.com/tel22a-inf/structs/examples/cardgames/maumau"
 )
 
 func main() {

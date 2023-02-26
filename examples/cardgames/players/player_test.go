@@ -3,7 +3,7 @@ package players
 import (
 	"fmt"
 
-	"github.com/rhcourses/go.structs/examples/cardgames/cards"
+	"github.com/tel22a-inf/structs/examples/cardgames/cards"
 )
 
 func ExampleNew() {
